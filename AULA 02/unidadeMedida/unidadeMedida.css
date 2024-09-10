@@ -1,3 +1,7 @@
+*{
+    font-size: 20px;
+}
+
 p{
     display: none;
     /* 
@@ -7,13 +11,13 @@ p{
     font-size: 20px;
 }
 h2{
-
     display: none;
+    
 }
 
 /* 
 em - Valor numérico com unidade, seu tamanho está 
-relacionado ao tamanho do elemento superior.
+relacionado ao tamanho do elemento superior/ elemento pai
 
 
 rem - Valor numérico com unidade, seu tamanho está 
@@ -21,10 +25,10 @@ relacionado ao elemento root
 */
 
 ul{
-    list-style: none   
-
+   font-size: 2em;
+    list-style: none;
 }
 
 li{
-
+    font-size: 3rem;
 }
