@@ -1,0 +1,11 @@
+p{
+    color: red;
+}
+
+ul p{
+    color: blue;
+}
+
+li, p{
+    text-shadow: 10px 5px 5px black;
+}

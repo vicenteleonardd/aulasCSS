@@ -1,0 +1,33 @@
+/* 
+font-weight - Negrito - porem nao tem importancia
+line-height - Altura da linha
+text-align - Alinhamento de Texto. left, right, center, justify
+text-shadow
+text-indent
+filter - opcional   
+*/
+
+
+
+span{
+    
+    font-weight: 700;
+    font-style: italic;
+    color: red;
+    text-align: right;
+}
+
+p{
+    font-weight: 100;
+    text-align: justify;
+    color: blue;
+    text-indent: 50px;
+    
+}
+
+article{
+    font-style: oblique;
+    color: orange;
+    text-align: right;
+    
+}

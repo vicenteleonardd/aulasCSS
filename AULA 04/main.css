@@ -1,0 +1,29 @@
+.amarelinhos{
+    color: yellow;
+}
+
+.italico{
+    font-style: italic;
+}
+
+body{
+    background-color: silver;
+}
+
+#a1{
+    color: blue;
+}
+
+#a2{
+    color: gray;
+    
+}
+
+#a3{
+    color: aqua;
+}
+
+#a4{
+    color: indianred;
+}
+
