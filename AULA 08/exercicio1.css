@@ -1,0 +1,15 @@
+@media (orientation: landscape){
+    .imgg{
+        text-align: center;
+        
+    }
+
+    h1{
+        color: deeppink;
+    }
+
+    p{
+        display: none;
+    }
+
+}

@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+input:focus{
+   background-color: red;
+}
+
+a:active{
+    background-color: purple;
+}
+
+p:first-child{
+    background-color: green;
+}
+
+:root{
+    background: yellow;
+}
+
+#shrek::after{
+    content: url(d1ulij0-659b2566-f01d-4df8-a44e-755d6ba6fec1.jpg);
+}
+
+#shrek::first-letter{
+    font-size: 50px;
+}

@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color:white;
+}
+
+.box1{
+    width:250px ;
+    height:250px;
+    background-color: blue;
+}
+
+.box2{
+    /* em | rem */
+    /* VM | VW | VMIN | VMAX */
+    border-radius: 10%;
+    width:250px ;
+    height:250px;
+    background-color: darkgreen;
+    margin: 5px;
+}
+
+.box3{
+    width:250px ;
+    height:250px;
+    background-color: teal;
+}

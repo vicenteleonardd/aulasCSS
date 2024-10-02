@@ -1,0 +1,50 @@
+.texto{
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 
+320px - 480px  
+769 - 1024 - Tablets e Mobile
+1201+ - telas maiores e TVs
+*/
+
+@media screen and (max-width: 320px) {
+    h1{
+        color: red;
+    }
+}
+
+@media print and (max-width:1200px){
+    h2{
+        color: blue;
+        text-align: center;
+    }
+}
+
+@media (max-width: 739px){
+    h3{
+        color: red;
+        text-align: center;
+    }
+}
+
+@media (min-width:1024px ) {
+    h4{
+      color: aqua;
+        
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1201px) {
+    h1{
+
+        display: none;
+    }
+}
+
+/* media screen 
+media print
+media landscape
+*/

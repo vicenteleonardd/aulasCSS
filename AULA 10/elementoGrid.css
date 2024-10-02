@@ -1,0 +1,40 @@
+.container{
+    height: 700px;
+    width: 800px;
+    margin: 0 auto;
+    color: white;
+
+    display: grid;
+
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas:
+    "header header header header header"
+    "prop prop main main main"
+    "prop prop main main main" 
+    "prop prop main main main"
+    "footer footer footer footer footer"
+
+}
+
+.box1{
+    grid-area: header;
+    background-color: green;
+    text-align: center;
+}
+.box2{
+    grid-area: prop;
+    background-color: red;
+    
+}
+
+.box3{
+    grid-area: main;
+    background-color: black;
+
+}
+
+.box4{
+    grid-area: footer;
+    background-color: darkorange;
+}

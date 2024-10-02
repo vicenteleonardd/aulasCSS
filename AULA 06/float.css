@@ -1,0 +1,10 @@
+div{
+    padding: 30px;
+    border: solid 4px black;
+    overflow: auto;
+}
+
+img{
+    
+    float: right;
+}

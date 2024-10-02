@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 60, 5%;
+}
+
+.primeiro{
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+}
+
+
+.segundo{
+    margin: 150px;
+}

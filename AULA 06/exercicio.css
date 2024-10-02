@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+section{
+    border: solid 4px black;
+    margin: 3px;
+}
+
+.primeiro{
+    float: right;
+}
+
+.segundo{
+    float: left;
+}
+
+p{
+    margin: 10px;
+    width: 25vw;
+}
